@@ -178,7 +178,7 @@
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
 
 <!-- repositories modified by me or Xilinx/Iveia -->
-  <project path="build" name="platform/build">
+  <project path="build" remote="origin" name="platform/build">
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="core/Makefile.zynq" dest="Makefile.zynq" />
   </project>
