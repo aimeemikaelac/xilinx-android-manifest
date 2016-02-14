@@ -178,7 +178,7 @@
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
 
 <!-- repositories modified by me or Xilinx/Iveia -->
-  <project path="build" name="platform/build" remote="origin" revision="android-zynq-1.0">
+  <project path="build" name="platform-build" remote="origin" revision="android-zynq-1.0">
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="core/Makefile.zynq" dest="Makefile.zynq" />
   </project>
